@@ -20,3 +20,5 @@ coalesce(away_team, 'nepoznato'),
  coalesce(attendance,0),
  coalesce(weather,'nepoznato')
 from matches_flat where attendance is null or weather is null ; --89 utakmica
+
+
